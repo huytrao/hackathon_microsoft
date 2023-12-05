@@ -1,0 +1,122 @@
+/* body {
+  margin: 0;
+  overflow: hidden;
+} */
+
+#background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('https://png.pngtree.com/background/20211217/original/pngtree-geometric-pattern-white-gold-minimalist-creative-background-picture-image_1575961.jpg') no-repeat center center fixed;
+  background-size: cover;
+  z-index: -1;
+}
+
+#content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+/* button {
+  padding: 10px 20px;
+  font-size: 18px;
+} */
+/* styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif; /* Font family for text */
+  background-color: white; /* Màu nền trang web là trắng */
+  color: #0077cc; /* Màu chữ là màu xanh nước biển */
+}
+
+/* #content {
+  text-align: center;
+  padding: 50px;
+} */
+
+button {
+  position: relative;
+  width: 300px; /* Đặt chiều rộng của nút */
+  margin: 0 10px; /* Tạo khoảng cách giữa các nút */
+  /* background-color: #0077cc; */
+  /* color: white; */
+  padding: 20px 40px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0077cc;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 0;
+}
+button:nth-child(2) {
+  background-color: #9600cc; /* Màu nền của nút thứ hai */
+}
+.hackericon {
+  position: absolute; /* Đặt vị trí tuyệt đối để đặt icon */
+  top: 175%; /* Dịch icon xuống giữa theo chiều cao của nút */
+  right: 35%; /* Đặt vị trí của icon bên phải của nút */
+  transform: translateY(-50%); /* Dịch icon lên trên 50% để căn giữa theo chiều cao */
+  width: 82px;
+  height: 82px;
+  background: url('https://cdn3.vectorstock.com/i/1000x1000/95/57/laptop-hacker-icon-simple-style-vector-26799557.jpg') no-repeat; /* Đặt hình ảnh của icon */
+  background-size: contain; /* Đảm bảo kích thước của icon phù hợp */
+  display: inline-block; /* Hiển thị icon như một phần của luồng văn bản */
+  margin-left: 0px; /* Khoảng cách giữa icon và chữ */
+  z-index: 2;
+}
+.bricklayericon {
+  position: absolute; /* Đặt vị trí tuyệt đối để đặt icon */
+  top: 175%; /* Dịch icon xuống giữa theo chiều cao của nút */
+  right: 35%; /* Đặt vị trí của icon bên phải của nút */
+  transform: translateY(-50%); /* Dịch icon lên trên 50% để căn giữa theo chiều cao */
+  width: 82px;
+  height: 82px;
+  background: url('https://cdn1.vectorstock.com/i/1000x1000/82/20/bricklayer-black-concept-icon-vector-23238220.jpg') no-repeat; /* Đặt hình ảnh của icon */
+  background-size: contain; /* Đảm bảo kích thước của icon phù hợp */
+  display: inline-block; /* Hiển thị icon như một phần của luồng văn bản */
+  margin-left: 0px; /* Khoảng cách giữa icon và chữ */
+  z-index: 1;
+}
+  /* Ẩn thanh công cụ của video */
+  video::-webkit-media-controls {
+    display:none !important;
+  }
+  #video-container {
+    position: relative;
+      /* position: fixed; */
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      
+    }
+    
+  
+  
+  #video-container.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  video {
+    width: auto;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+
+  
